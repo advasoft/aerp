@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6A95540E-E8BD-4B9D-B05F-A05849D3CC94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{905DF79E-758B-4A11-BC33-2C9A3B58C16F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "aerp.frontend", "src\aerp.frontend\aerp.frontend.xproj", "{8C848D86-6567-4BB2-8C7C-F310E72B3470}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "aerp.services", "src\aerp.services\aerp.services.xproj", "{81EEEBF0-F1EE-4865-9C9A-9A69A1DA37E1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "aerp.web.core", "src\aerp.web.core\aerp.web.core.xproj", "{731F1DC1-657B-4F5D-B497-E798BBD80CC0}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "aerp.irr.entities", "src\aerp.irr.entities\aerp.irr.entities.xproj", "{9CE311E8-A270-43DD-93E5-800800CCD60E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C848D86-6567-4BB2-8C7C-F310E72B3470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C848D86-6567-4BB2-8C7C-F310E72B3470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C848D86-6567-4BB2-8C7C-F310E72B3470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C848D86-6567-4BB2-8C7C-F310E72B3470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EEEBF0-F1EE-4865-9C9A-9A69A1DA37E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EEEBF0-F1EE-4865-9C9A-9A69A1DA37E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EEEBF0-F1EE-4865-9C9A-9A69A1DA37E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EEEBF0-F1EE-4865-9C9A-9A69A1DA37E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731F1DC1-657B-4F5D-B497-E798BBD80CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731F1DC1-657B-4F5D-B497-E798BBD80CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731F1DC1-657B-4F5D-B497-E798BBD80CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731F1DC1-657B-4F5D-B497-E798BBD80CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE311E8-A270-43DD-93E5-800800CCD60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE311E8-A270-43DD-93E5-800800CCD60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE311E8-A270-43DD-93E5-800800CCD60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE311E8-A270-43DD-93E5-800800CCD60E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C848D86-6567-4BB2-8C7C-F310E72B3470} = {6A95540E-E8BD-4B9D-B05F-A05849D3CC94}
+		{81EEEBF0-F1EE-4865-9C9A-9A69A1DA37E1} = {6A95540E-E8BD-4B9D-B05F-A05849D3CC94}
+		{731F1DC1-657B-4F5D-B497-E798BBD80CC0} = {6A95540E-E8BD-4B9D-B05F-A05849D3CC94}
+		{9CE311E8-A270-43DD-93E5-800800CCD60E} = {6A95540E-E8BD-4B9D-B05F-A05849D3CC94}
+	EndGlobalSection
+EndGlobal

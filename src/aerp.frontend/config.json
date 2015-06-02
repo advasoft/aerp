@@ -1,0 +1,10 @@
+﻿{
+  "AppSettings": {
+    "SiteTitle": "aerp.frontend"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-aerp.frontend-cb9f9083-10e2-4d45-bd6d-ae1d6fcd188a;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
